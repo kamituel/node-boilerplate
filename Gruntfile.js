@@ -81,13 +81,8 @@ module.exports = function (grunt) {
           name: 'main',
           paths: {
             /* Example for angular */
-            'controllers': 'controllers/',
-            'directives': 'directives/',
-            'factories': 'factories/',
-            'filters': 'filters/',
-            'angular': '//lorem1.ipsum',
-            'ui-bootstrap': '//lorem2.ipsum',
-            'underscore': '//lorem3.ipsum'
+            //'angular': '//lorem1.ipsum',
+            //'ui-bootstrap': '//lorem2.ipsum'
           },
           optimize: 'uglify2',
           logLevel: 0,
