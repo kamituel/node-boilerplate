@@ -16,7 +16,13 @@ Basic boilerplate with:
 
 ## Usage
 
-Review and apply your configuration to: `vim Gruntfile.js`
+1. Download and copy to your project: `Gruntfile.js`, `.jshint*`.
+2. Install dependencies:
+```
+npm install --save-dev grunt grunt-cli grunt-contrib-jshint grunt-contrib-requirejs grunt-contrib-watch grunt-contrib-sass grunt-contrib-jade grunt-contrib-cssmin
+```
+
+3. Review and apply your configuration to: `vim Gruntfile.js`
 
 ## Notes
 
