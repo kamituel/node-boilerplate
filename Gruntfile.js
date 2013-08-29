@@ -25,6 +25,7 @@ module.exports = function (grunt) {
   var JS = '.js'
     , SCSS = '.scss'
     , JADE = '.jade'
+    , HTML = '.html'
     ;
 
   var ALL_DIRS = WEB_DIRS.concat(NODE_DIRS);
@@ -184,11 +185,10 @@ module.exports = function (grunt) {
 
     grunt.file.recurse(input_dir, function (abspath, rootdir, subdir, filename) {
       if (JADE === path.extname(filename)) {
-        res[path.basename(abspath, JADE)] = abspath;
+        var out = path.join(output_dir, path.basename(abspath, JADE) + HTML);
+        res[out] = abspath;
       }
     });
-
-    console.log(res);
 
     return res;
   }
