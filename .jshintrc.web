@@ -1,0 +1,10 @@
+{
+  "globals": {
+  	"define": true,
+  	"_": true,
+  	"requirejs": true,
+  	"require": true,
+  	"document": true,
+  	"window": true
+  }
+}
