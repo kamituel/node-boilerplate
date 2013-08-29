@@ -19,7 +19,8 @@ Basic boilerplate with:
 1. Download and copy to your project: `Gruntfile.js`, `.jshint*`.
 2. Install dependencies:
 ```
-npm install --save-dev grunt grunt-cli grunt-contrib-jshint grunt-contrib-requirejs grunt-contrib-watch grunt-contrib-sass grunt-contrib-jade grunt-contrib-cssmin
+npm install --save-dev grunt grunt-cli grunt-contrib-jshint grunt-contrib-requirejs \
+    grunt-contrib-watch grunt-contrib-sass grunt-contrib-jade grunt-contrib-cssmin
 ```
 3. For your convienience: `ln -s ./node_modules/.bin/grunt ./` (alternatively you can install grunt globally).
 
