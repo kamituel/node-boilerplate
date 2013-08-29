@@ -18,9 +18,11 @@ Basic boilerplate with:
 
 1. Download and copy to your project: `Gruntfile.js`, `.jshint*`.
 2. Install dependencies:
-```
-npm install --save-dev grunt grunt-cli grunt-contrib-jshint grunt-contrib-requirejs \
-    grunt-contrib-watch grunt-contrib-sass grunt-contrib-jade grunt-contrib-cssmin
+
+```bash
+npm install --save-dev grunt grunt-cli grunt-contrib-jshint \
+                       grunt-contrib-requirejs grunt-contrib-watch \ 
+                       grunt-contrib-sass grunt-contrib-jade grunt-contrib-cssmin
 ```
 3. For your convienience: `ln -s ./node_modules/.bin/grunt ./` (alternatively you can install grunt globally).
 
@@ -33,23 +35,23 @@ npm install --save-dev grunt grunt-cli grunt-contrib-jshint grunt-contrib-requir
    as well, but the URL is unimportant. Example:
 
 ```
-    requirejs: {
-      compile: {
-        options: {
-          baseUrl: 'views/js',
-          out: 'static/js/main.js',
-          name: 'main',
-          paths: {
-            /* Example for angular */
-            'controllers': 'controllers/',
-            'angular': '//lorem1.ipsum',      // //lorem1.ipsum URL has no meaning here
-          },
-          optimize: 'uglify2',
-          logLevel: 0,
-          preserveLicenseComments: false,
-          generateSourceMaps: true
-        }
-      }
-    },
+requirejs: {
+  compile: {
+    options: {
+      baseUrl: 'views/js',
+      out: 'static/js/main.js',
+      name: 'main',
+      paths: {
+        /* Example for angular */
+        'controllers': 'controllers/',
+        'angular': '//lorem1.ipsum',      // //lorem1.ipsum URL has no meaning here
+      },
+      optimize: 'uglify2',
+      logLevel: 0,
+      preserveLicenseComments: false,
+      generateSourceMaps: true
+    }
+  }
+},
 ```
 
