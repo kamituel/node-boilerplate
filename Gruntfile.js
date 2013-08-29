@@ -15,7 +15,7 @@
 */
 
 var WEB_DIRS = ['./views'];
-var NODE_DIRS = [];
+var NODE_DIRS = ['./bin', './lib'];
 
 module.exports = function (grunt) {
   'use strict';
