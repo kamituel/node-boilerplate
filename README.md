@@ -21,8 +21,9 @@ Basic boilerplate with:
 ```
 npm install --save-dev grunt grunt-cli grunt-contrib-jshint grunt-contrib-requirejs grunt-contrib-watch grunt-contrib-sass grunt-contrib-jade grunt-contrib-cssmin
 ```
+3. For your convienience: `ln -s ./node_modules/.bin/grunt ./` (alternatively you can install grunt globally).
 
-3. Review and apply your configuration to: `vim Gruntfile.js`
+4. Review and apply your configuration to: `vim Gruntfile.js`
 
 ## Notes
 
