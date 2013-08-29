@@ -11,7 +11,7 @@
 
   Usage:
     $ grunt
-    $ grunt [--production] [watch]
+    $ grunt [--production] [monitor]
 */
 
 var WEB_DIRS = ['./views'];
@@ -113,7 +113,7 @@ module.exports = function (grunt) {
   });
 
   grunt.registerTask('default', ['sass', 'cssmin', 'jshint', 'jade', 'requirejs']);
-  grunt.registerTask('watch', ['watch']);
+  grunt.registerTask('monitor', ['watch']);
 
 
   /*
