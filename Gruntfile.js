@@ -80,6 +80,7 @@ module.exports = function (grunt) {
           out: 'static/js/main.js',
           name: 'main',
           paths: {
+            /* Example for angular */
             'controllers': 'controllers/',
             'directives': 'directives/',
             'factories': 'factories/',
