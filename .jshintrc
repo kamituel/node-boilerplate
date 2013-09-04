@@ -4,6 +4,7 @@
   "curly": false,
   "eqeqeq": true,
   "evil": false,
+  "force": true,
   "forin": true,
   "immed": true,
   "indent": 2,
