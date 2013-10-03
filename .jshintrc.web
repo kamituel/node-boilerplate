@@ -5,6 +5,7 @@
   	"requirejs": true,
   	"require": true,
   	"document": true,
-  	"window": true
+  	"window": true,
+	"setTimeout": true
   }
 }
